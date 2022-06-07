@@ -25,7 +25,7 @@ CONF_PROMETHEUS_QUERY = 'prometheus_query'
 CONF_STATE_CLASS = 'state_class'
 CONF_DEVICE_CLASS = 'device_class'
 CONF_UNIQUE_ID = 'unique_id'
-SCAN_INTERVAL = timedelta(seconds=600)
+SCAN_INTERVAL = timedelta(seconds=5)
 
 _LOGGER = logging.getLogger(__name__)
 
